@@ -15,7 +15,7 @@ To receive telegram notifications:
 1) Create a bot by writing to the BotFather on Telegram
 2) BotFather will give you an API key: **save this API key for later**
 3) Create a public channel and add the newly created bot as administrator
-4) **Save the name of the channel** including the "@", for example: '@subito_bot'
+4) **Save the name of the channel** including the "@", for example: '@ebay_bot'
 
 ### eBay configuration
 1) Open an account on developer.ebay.com
