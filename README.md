@@ -18,7 +18,7 @@ To receive telegram notifications:
 4) **Save the name of the channel** including the "@", for example: '@ebay_bot'
 
 ### eBay configuration
-1) Open an account on developer.ebay.com
+1) Open an account on https://developer.ebay.com
 2) Once account is active create a new Production keyset for scraping
 3) **Save App ID for later**
 
