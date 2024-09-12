@@ -32,9 +32,11 @@ Write `python3 ebay-scraper.py --help` to see all the command line arguments. Ke
 Here is a cheatsheet of the most common usages:
 
 * Start a new default scraping session:
+  
 `python3 ebay-scraper.py --keyword "iPhone 13 128gb" --maxPrice 500 --minPrice 100`
 
 * Modify the delay between a search and another
+  
 `python3 ebay-scraper.py --delay 120 --keyword "iPhone 13"`
 
 
