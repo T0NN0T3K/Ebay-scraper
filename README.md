@@ -5,6 +5,7 @@ Working with 3.x Python versions
 
 ### Copy repository
 `git clone https://github.com/T0NN0T3K/eBay-scraper.git`
+
 `cd eBay-scraper`
 
 ### Install dependencies 
