@@ -6,17 +6,17 @@ from telegram.error import RetryAfter, TimedOut
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument('--apikey',dest='app_id',help="paste your eBay App ID")
-parser.add_argument('--botToken',dest='BOT_TOKEN',help="paste your telegram bot here")
-parser.add_argument('--channelId',dest='channel_id',help="paste your telegram public channel id here")
+parser.add_argument('--apikey',dest='app_id',help="your eBay App ID api key here")
+parser.add_argument('--botToken',dest='BOT_TOKEN',help="your telegram bot token here")
+parser.add_argument('--channelId',dest='channel_id',help="your telegram public channel id here")
 parser.add_argument('--keywords',dest='keyword',help="select keywords to search in the title")
-parser.add_argument('--delay', dest='delay', help="delay for the daemon (default 120s)")
+parser.add_argument('--delay', dest='delay', help="delay for the daemon (default 120)")
 parser.set_defaults(delay=120)   #default refresh every 2 minutes
 parser.add_argument('--minPrice',dest='minPrice')
 parser.set_defaults(minPrice=0)
 parser.add_argument('--maxPrice',dest='maxPrice')
 parser.set_defaults(maxPrice=100000)
-parser.add_argument('--globalId',dest='globalId',help="select the ebay global ID of your country")
+parser.add_argument('--globalId',dest='globalId',help="select the ebay global ID of your country (default Italy 'EBAY-IT'")
 parser.set_defaults(globalId="EBAY-IT")
 
 args = parser.parse_args()
