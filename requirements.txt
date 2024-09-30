@@ -1,5 +1,6 @@
 ebaysdk
 requests
 telegram
+python-telegram-bot
 argparse
 asyncio
